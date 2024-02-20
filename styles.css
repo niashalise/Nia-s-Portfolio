@@ -1,0 +1,158 @@
+* {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.zeyada-regular {
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(61, 141, 129), rgb(26, 156, 231));
+}
+
+.navdiv {
+    font-family: Calibri, Verdana;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+#homepage,
+#about,
+#projects,
+#contact {
+    color: rgb(24, 227, 204);
+    font-family: "Lilita One", Verdana;
+    font-size: 26px;
+    transition: font-size 4s;
+}
+
+#homepage:hover {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+#about:hover {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+#projects:hover {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+#contact:hover {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.about, 
+#work {
+    font-family: "Zeyada", papyrus;
+    font-size: 24px;
+    color: rgb(24, 227, 204);
+}
+
+.main-header,
+#second-header {
+    font-family: "Lilita One", Arial;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: solid 5px rgb(0, 0, 0);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.links,
+.contact-me {
+    font-family: "Zeyada", papyrus;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+#git:hover,
+#linkedin:hover {
+    color: rgb(24, 227, 204);
+}
+
+#git:visited,
+#linkedin:visited {
+    color: rgb(255, 255, 255);
+}
+
+input,
+#message {
+    width: 75%;
+    padding: 15px 10px;
+    margin: 10px;
+    border: 4px solid rgb(24, 227, 204);
+    color:rgb(26, 156, 231);
+    resize: none;
+}
+
+input:focus,
+#message:focus {
+    border: 4px solid rgb(0, 0, 255);
+}
+
+#contact-me {
+    color: rgb(24, 227, 204);
+    font-size: 24px;
+    font-family: "Lilita One", Arial;
+}
+
+button {
+    background-color: rgb(26, 156, 231);
+    color: rgb(255, 255, 255);
+    font-family: "Lilita One", Arial;
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 255);
+}
+
+fieldset {
+    border: 2px solid rgb(26, 156, 231);
+}
+
+legend,
+footer {
+    color: rgb(255, 255, 255);
+    font-family: "Zeyada", Arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+.email {
+    color: rgb(24, 227, 204);
+}
